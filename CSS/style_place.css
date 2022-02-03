@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap');
+body{
+    font-size: 24px;
+    background-image:url(../img/fon3.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper{
+    width: 1300px;
+    margin: 0 auto; 
+}
+header{
+    font-size: 23px;
+    margin-top: 40px;
+    text-align: center;
+}
+.logo{
+width: 465px;
+height: 320px;
+}
+nav{
+    background-color: orange;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.nav-link{
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 50px;
+    color: #3b3b3b;
+    font-family: 'Rubik Mono One', sans-serif;
+    
+}
+.nav-link:hover{
+    color:#5a0212 ;
+}
+h2{
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.welcome{
+    border-radius: 10px;
+    opacity: 0.8;
+    background-color: orange;
+    background-repeat: no-repeat;
+    margin-top: 160px;
+}
+p{
+    padding-bottom: 20px;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.link{
+text-decoration: none;
+color: brown;
+}
+.link:hover{
+   color: crimson; 
+}
+
+footer{
+    border-radius: 10px;
+    opacity: 0.8;
+    background-color: orange;
+    background-repeat: no-repeat;
+    margin-top: 160px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    margin-right: 50px;
+    text-align: center;
+    margin-left: 50px;
+}
+footer a img{
+    max-width: 50px;
+    max-height: 50px;
+}
+footer a img:hover{
+    max-width: 70px;
+    max-height: 70px;
+}
+.welcome iframe{
+margin-left: 50px;  
+margin-bottom: 50px;
+border-radius: 10px;
+}

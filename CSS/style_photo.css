@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap');
+body{
+    font-size: 24px;
+    background-image:url(../img/fon4.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper{
+    width: 1300px;
+    margin: 0 auto; 
+}
+.header{
+    font-size: 23px;
+    margin-top: 40px;
+    text-align: center;
+}
+.logo{
+width: 465px;
+height: 320px;
+}
+nav{
+    background-color: orange;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.nav-link{
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 50px;
+    color: #3b3b3b;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+.nav-link:hover{
+    color:#5a0212 ;
+}
+h2{
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-p{
+    padding: 20px;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    border-radius: 10px;
+    background-color: orange;
+    background-repeat: no-repeat;
+    margin-top: 160px;
+    border-radius: 10px;
+    min-width: 1300;
+}
+.cont{
+    display: flex;
+    margin-right: 40px;
+    text-align: center;
+}
+.carousel-item img{
+   width: 300px;
+   height: 700px;
+}
+.carousel-item{
+    padding: 20px 20px 20px 20px;
+    
+
+}
+footer{
+    border-radius: 10px;
+    opacity: 0.8;
+    background-color: orange;
+    background-repeat: no-repeat;
+    margin-top: 160px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    margin-right: 50px;
+    text-align: center;
+    margin-left: 50px;
+}
+footer a img{
+    max-width: 50px;
+    max-height: 50px;
+}
+footer a img:hover{
+    max-width: 70px;
+    max-height: 70px;
+}
